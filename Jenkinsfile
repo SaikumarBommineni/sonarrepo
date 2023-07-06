@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        function_name = 'jenkinslambda'
+        function_name = 'java-sample'
     }
 
     stages {
