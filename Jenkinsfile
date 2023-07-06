@@ -26,7 +26,7 @@ pipeline {
                 }
             }
             steps {
-                withSonarQubeEnv('sai') {
+                withSonarQubeEnv('Sonar') {
                     sh 'mvn sonar:sonar'
                 }
             }
